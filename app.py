@@ -2,7 +2,7 @@
 # Import your Game class
 
 # Reasons for this are explained on line 26
-from .game import Game
+from game import Game
 from time import sleep                                                                  
 
 # Create your Dunder Main statement

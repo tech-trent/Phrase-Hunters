@@ -2,7 +2,7 @@
 # Create your Game class logic in here
 
 # `Phrase` is imported into and used by `game.py`
-from .phrase import Phrase         
+from phrase import Phrase         
 # Used to take random phrases     
 from random import choice as choose     
 

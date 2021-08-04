@@ -29,7 +29,7 @@ class Phrase:
                     self.hidden_phrase += phrase_char
             # If the given character isn't actually in the phrase, simply re-iterate the loop in the initializer; add spaces and underscores wherever needed
             elif phrase_char == " ":
-                self.hidden_phrase += " _"
+                self.hidden_phrase += " "
             else:
                 self.hidden_phrase += " _"
         # Print out the updated `hidden_phrase` attribute, with the user's guesses added to it

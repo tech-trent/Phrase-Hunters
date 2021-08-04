@@ -12,11 +12,11 @@ class Game:
     def __init__(self):
         self.missed = 0
         self.phrases = [
-            ("Take me out to the ball game"),
-            ("We gonna rock down to electric avenue"),
-            ("Medium rare steak please"),
-            ("Please keep your hands and feet inside the vehicle at all times"),
-            ("We live on the most boring street in the country")
+            Phrase("Take me out to the ball game"),
+            Phrase("We gonna rock down to electric avenue"),
+            Phrase("Medium rare steak please"),
+            Phrase("Please keep your hands and feet inside the vehicle at all times"),
+            Phrase("We live on the most boring street in the country")
         ]
         self.active_phrase = None
         self.guesses = []
